@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Mult" parallel="classes" thread-count="2">
+    <test name="Mult functionality double">
+    <classes>
+        <class name="by.tamp.module4.test.mult.MultFactory"></class>
+    </classes>
+    </test>
+    <test name="Mult functionality long">
+        <classes>
+            <class name="by.tamp.module4.test.mult.MultLongTest"></class>
+        </classes>
+    </test>
+</suite>

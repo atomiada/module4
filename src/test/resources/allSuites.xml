@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="All suites">
+    <suite-files>
+        <suite-file path="sum.xml"/>
+        <suite-file path="sub.xml"/>
+        <suite-file path="div.xml"/>
+        <suite-file path="mult.xml"/>
+    </suite-files>
+</suite>

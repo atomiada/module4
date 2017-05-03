@@ -1,0 +1,25 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Subtraction" parallel="classes" thread-count="2">
+    <test name="Subtraction functionality double">
+        <groups>
+            <run>
+                <include name="sub"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="by.tamp.module4.test.sub.SubDoubleTest"></class>
+        </classes>
+    </test>
+    <test name="Subtraction functionality long">
+        <groups>
+            <run>
+                <include name="sub"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="by.tamp.module4.test.sub.SubLongTest"></class>
+        </classes>
+    </test>
+
+</suite>

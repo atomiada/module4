@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="My parallel suite" parallel="methods" thread-count="2">
+    <test name="ParallelTest">
+    <classes>
+        <class name="by.tamp.module4.test.ParallelTest"></class>
+    </classes>
+    </test>
+</suite>

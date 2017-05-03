@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Div" verbose="1">
+    <test name="Div functionality double">
+    <classes>
+        <class name="by.tamp.module4.test.div.DiveTest"></class>
+    </classes>
+    </test>
+</suite>

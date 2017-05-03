@@ -1,0 +1,24 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Sum">
+    <test name="Sum functionality double">
+    <groups>
+        <run>
+            <include name="sum"/>
+        </run>
+    </groups>
+    <classes>
+        <class name="by.tamp.module4.test.sum.SumDoubleTest"></class>
+    </classes>
+    </test>
+    <test name="Sum functionality long">
+        <groups>
+            <run>
+                <include name="sum"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="by.tamp.module4.test.sum.SumLongTest"></class>
+        </classes>
+    </test>
+</suite>
